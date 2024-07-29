@@ -3,6 +3,8 @@
 
 
 Introduction:- Developed a system to provide real-time flight status updates and gives Real-time Updates: Display current flight status (delays, cancellations, gate changes).
+
+
 Technology Used :- 
 # Front End:- HTML, CSS, React.js
 # Backend :- Javascript
@@ -37,6 +39,7 @@ To use the FIDS Flight Information Display System, follow these steps:
 5. To start JSON server
 ```npx json-server --watch db.json --port 5000```
 
-#Thank you for visiting.
+# Thank you for visiting.
+
 Shagun Maurya
 
