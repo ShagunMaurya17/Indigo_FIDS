@@ -1,0 +1,242 @@
+{
+  "international-arrival-api": {
+    "data": [
+      {
+        "flightNumber": "AI123",
+        "airlines": "Air India",
+        "status": "ON TIME",
+        "destination": "New York",
+        "arriving": "10:00",
+        "ata": "09:55"
+      },
+      {
+        "flightNumber": "9W456",
+        "airlines": "Jet Airways",
+        "status": "DELAYED",
+        "destination": "London",
+        "arriving": "12:00",
+        "ata": "12:30"
+      },
+      {
+        "flightNumber": "IT789",
+        "airlines": "IndiGo",
+        "status": "CANCELLED",
+        "destination": "Dubai",
+        "arriving": "14:00",
+        "ata": "13:55"
+      },
+      {
+        "flightNumber": "AI101",
+        "airlines": "Air India",
+        "status": "ON TIME",
+        "destination": "Frankfurt",
+        "arriving": "16:00",
+        "ata": "15:55"
+      },
+      {
+        "flightNumber": "9W123",
+        "airlines": "Jet Airways",
+        "status": "DELAYED",
+        "destination": "Paris",
+        "arriving": "18:00",
+        "ata": "18:30"
+      },
+      {
+        "flightNumber": "AI456",
+        "airlines": "Air India",
+        "status": "ON TIME",
+        "destination": "Hong Kong",
+        "arriving": "20:00",
+        "ata": "19:55"
+      },
+      {
+        "flightNumber": "IT123",
+        "airlines": "IndiGo",
+        "status": "DELAYED",
+        "destination": "Singapore",
+        "arriving": "22:00",
+        "ata": "22:30"
+      }
+    ]
+  },
+  "domestic-arrival-api": {
+    "data": [
+      {
+        "flightNumber": "NA123",
+        "airlines": "Buddha Air",
+        "status": "ON TIME",
+        "destination": "Pokhara",
+        "arriving": "08:00",
+        "ata": "07:55"
+      },
+      {
+        "flightNumber": "NA456",
+        "airlines": "Phantom Air",
+        "status": "DELAYED",
+        "destination": "Bharatpur",
+        "arriving": "09:00",
+        "ata": "09:30"
+      },
+      {
+        "flightNumber": "NA789",
+        "airlines": "Tara Air",
+        "status": "ON TIME",
+        "destination": "Biratnagar",
+        "arriving": "10:00",
+        "ata": "09:55"
+      },
+      {
+        "flightNumber": "NA101",
+        "airlines": "Sita Air",
+        "status": "CANCELLED",
+        "destination": "Nepalgunj",
+        "arriving": "11:00",
+        "ata": "10:55"
+      },
+      {
+        "flightNumber": "NA202",
+        "airlines": "Air Shree",
+        "status": "ON TIME",
+        "destination": "Janakpur",
+        "arriving": "12:00",
+        "ata": "11:55"
+      },
+      {
+        "flightNumber": "NA303",
+        "airlines": "Nepali Airlines",
+        "status": "DELAYED",
+        "destination": "Dhangadhi",
+        "arriving": "13:00",
+        "ata": "13:30"
+      },
+      {
+        "flightNumber": "NA404",
+        "airlines": "Nepali Airlines",
+        "status": "ON TIME",
+        "destination": "Simara",
+        "arriving": "14:00",
+        "ata": "13:55"
+      }
+    ]
+  },
+  "international-departure-api": {
+    "data": [
+      {
+        "flightNumber": "DL789",
+        "airlines": "Delta Airlines",
+        "status": "CANCELLED",
+        "destination": "Atlanta",
+        "departing": "15:00",
+        "gate": "D4"
+      },
+      {
+        "flightNumber": "UA101",
+        "airlines": "United Airlines",
+        "status": "ON TIME",
+        "destination": "Chicago",
+        "departing": "16:00",
+        "gate": "A2"
+      },
+      {
+        "flightNumber": "BA102",
+        "airlines": "British Airways",
+        "status": "DELAYED",
+        "destination": "London",
+        "departing": "17:00",
+        "gate": "B3"
+      },
+      {
+        "flightNumber": "AF103",
+        "airlines": "Air France",
+        "status": "ON TIME",
+        "destination": "Paris",
+        "departing": "18:00",
+        "gate": "C4"
+      },
+      {
+        "flightNumber": "LH104",
+        "airlines": "Lufthansa",
+        "status": "CANCELLED",
+        "destination": "Frankfurt",
+        "departing": "19:00",
+        "gate": "D5"
+      },
+      {
+        "flightNumber": "EK105",
+        "airlines": "Emirates",
+        "status": "DELAYED",
+        "destination": "Dubai",
+        "departing": "20:00",
+        "gate": "E6"
+      },
+      {
+        "flightNumber": "CX106",
+        "airlines": "Cathay Pacific",
+        "status": "ON TIME",
+        "destination": "Hong Kong",
+        "departing": "21:00",
+        "gate": "F7"
+      }
+    ]
+  },
+  "domestic-departure-api": {
+    "data": [
+      {
+        "flightNumber": "NA789",
+        "airlines": "Tara Air",
+        "status": "ON TIME",
+        "destination": "Kathmandu",
+        "departing": "14:00",
+        "gate": "C3"
+      },
+      {
+        "flightNumber": "NA101",
+        "airlines": "Sita Air",
+        "status": "DELAYED",
+        "destination": "Pokhara",
+        "departing": "15:00",
+        "gate": "D4"
+      },
+      {
+        "flightNumber": "NA202",
+        "airlines": "Yeti Airline",
+        "status": "CANCELLED",
+        "destination": "Bharatpur",
+        "departing": "16:00",
+        "gate": "E5"
+      },
+      {
+        "flightNumber": "NA303",
+        "airlines": "Buddha Air",
+        "status": "ON TIME",
+        "destination": "Biratnagar",
+        "departing": "17:00",
+        "gate": "F6"
+      },
+      {
+        "flightNumber": "NA404",
+        "airlines": "Nepali Airlines",
+        "status": "DELAYED",
+        "destination": "Nepalgunj",
+        "departing": "18:00",
+        "gate": "G7"
+      },
+      {
+        "flightNumber": "NA505",
+        "airlines": "Nepali Airlines",
+        "status": "ON TIME",
+        "destination": "Janakpur",
+        "departing": "19:00",
+        "gate": "H8"
+      },
+      {
+        "flightNumber": "NA606",
+        "airlines": "Nepali Airlines",
+        "status": "CANCELLED",
+        "destination": "Dhangadhi",
+        "departing": "20:00",
+        "gate": "I9"
+      }
+    ]
+  }
+}

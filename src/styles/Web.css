@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+* {
+  font-family: "Ubuntu Condensed", sans-serif, Arial;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  color: rgb(240, 240, 240) !important;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(32, 28, 29);
+}
+
+/* Table Styles */
+table {
+  padding: 0.2rem 0 0.5rem 0.5rem;
+}
+
+header {
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.header-option {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-option label {
+  font-size: 0.6rem;
+}
+
+.header-main {
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  color: gold;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.header-right {
+  font-size: 1.6rem;
+}
+
+.departures {
+  background-color: rgb(6, 6, 6);
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.departures table {
+  background-color: rgb(46, 46, 46);
+  text-align: left;
+  margin: 0 auto 1rem;
+  width: 98vw;
+}
+
+.departures table div {
+  border: solid 4px rgb(26, 26, 26);
+  background-color: rgb(0, 0, 0);
+  width: 1.19rem;
+  height: 2.5rem;
+  float: left;
+}
+
+.header-col {
+  color: rgb(244, 220, 84);
+}
+
+#header-icon {
+  width: 0.5rem;
+  padding-left: 1rem;
+}
+
+#time,
+#airline,
+#airline-arr,
+#destination,
+#flight,
+#gate,
+#status,
+#ata,
+#origin {
+  font-size: 1.2rem;
+}
+
+#airline-arr,
+#time,
+#airline,
+#destination,
+#origin {
+  width: auto;
+}
+
+#flight,
+#gate,
+#status,
+#ata {
+  width: min-content;
+}
+
+.flip {
+  font-size: 1.8rem;
+  animation: 0.5s linear flipping;
+  -webkit-animation: 0.5s linear flipping;
+}
+
+@keyframes flipping {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.custom-icon {
+  width: 5rem;
+  padding-right: 1rem;
+}
+
+marquee {
+  background: gold;
+  color: rgb(32, 28, 29);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 0.4rem;
+  font-size: 1.8rem;
+}
