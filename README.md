@@ -25,7 +25,7 @@ Technology Used :-
 To use the FIDS Flight Information Display System, follow these steps:
 
 1. Clone the repository:
-```Clone This repoistry```
+```Clone This repository```
 
 2. Navigate to the project directory:
 ```cd Indigo_FIDS```
